@@ -103,9 +103,9 @@
                                                 </userDefinedRuntimeAttributes>
                                             </slider>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9jd-C7-mCP" userLabel="Generation">
-                                                <rect key="frame" x="231.5" y="21.5" width="204.5" height="35"/>
+                                                <rect key="frame" x="231.5" y="21" width="204.5" height="36"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="35" id="j7d-ve-AHM"/>
+                                                    <constraint firstAttribute="height" constant="36" id="j7d-ve-AHM"/>
                                                     <constraint firstAttribute="width" constant="204" id="svN-wN-uZ9"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
