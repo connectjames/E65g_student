@@ -108,6 +108,8 @@ enum CellState {
         }
     }
 }
+
+func test(_ _: Int) {}
 /*:
  ## Problem 3:
  In the struct Cell below:
