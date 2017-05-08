@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		081C00231EBF26BC00A4C444 /* StandardEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081C00221EBF26BC00A4C444 /* StandardEngine.swift */; };
+		088AA06E1EBA3A0700096E03 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AA06C1EBA3A0700096E03 /* Grid.swift */; };
+		088AA06F1EBA3A0700096E03 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AA06D1EBA3A0700096E03 /* GridView.swift */; };
+		0890A60E1EBFFB13005980AD /* FMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0890A60D1EBFFB13005980AD /* FMan.swift */; };
+		08EE92AC1EBDE826004458CA /* InstrumentationVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EE92AB1EBDE826004458CA /* InstrumentationVController.swift */; };
+		08EE92AE1EBDF49F004458CA /* getJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EE92AD1EBDF49F004458CA /* getJSON.swift */; };
+		08EE92B01EBDF6E4004458CA /* SimulationVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EE92AF1EBDF6E4004458CA /* SimulationVController.swift */; };
+		08EE92B21EBDF6F7004458CA /* StatisticsVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EE92B11EBDF6F7004458CA /* StatisticsVController.swift */; };
+		08EE92B41EBDFF3A004458CA /* GridEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EE92B31EBDFF3A004458CA /* GridEditorViewController.swift */; };
 		FBAD2E271E2BE417008207C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD2E261E2BE417008207C0 /* AppDelegate.swift */; };
 		FBAD2E291E2BE417008207C0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD2E281E2BE417008207C0 /* FirstViewController.swift */; };
 		FBAD2E2B1E2BE417008207C0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD2E2A1E2BE417008207C0 /* SecondViewController.swift */; };
@@ -16,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		081C00221EBF26BC00A4C444 /* StandardEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardEngine.swift; sourceTree = "<group>"; };
+		088AA06C1EBA3A0700096E03 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		088AA06D1EBA3A0700096E03 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		0890A60D1EBFFB13005980AD /* FMan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMan.swift; sourceTree = "<group>"; };
+		08EE92AB1EBDE826004458CA /* InstrumentationVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentationVController.swift; sourceTree = "<group>"; };
+		08EE92AD1EBDF49F004458CA /* getJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getJSON.swift; sourceTree = "<group>"; };
+		08EE92AF1EBDF6E4004458CA /* SimulationVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulationVController.swift; sourceTree = "<group>"; };
+		08EE92B11EBDF6F7004458CA /* StatisticsVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsVController.swift; sourceTree = "<group>"; };
+		08EE92B31EBDFF3A004458CA /* GridEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridEditorViewController.swift; sourceTree = "<group>"; };
 		FBAD2E231E2BE417008207C0 /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAD2E261E2BE417008207C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBAD2E281E2BE417008207C0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -56,13 +74,22 @@
 		FBAD2E251E2BE417008207C0 /* FinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				088AA06C1EBA3A0700096E03 /* Grid.swift */,
+				088AA06D1EBA3A0700096E03 /* GridView.swift */,
 				FBAD2E261E2BE417008207C0 /* AppDelegate.swift */,
 				FBAD2E281E2BE417008207C0 /* FirstViewController.swift */,
 				FBAD2E2A1E2BE417008207C0 /* SecondViewController.swift */,
 				FBAD2E2C1E2BE417008207C0 /* Main.storyboard */,
+				08EE92AD1EBDF49F004458CA /* getJSON.swift */,
 				FBAD2E2F1E2BE417008207C0 /* Assets.xcassets */,
 				FBAD2E311E2BE417008207C0 /* LaunchScreen.storyboard */,
 				FBAD2E341E2BE417008207C0 /* Info.plist */,
+				08EE92AB1EBDE826004458CA /* InstrumentationVController.swift */,
+				08EE92AF1EBDF6E4004458CA /* SimulationVController.swift */,
+				08EE92B11EBDF6F7004458CA /* StatisticsVController.swift */,
+				08EE92B31EBDFF3A004458CA /* GridEditorViewController.swift */,
+				081C00221EBF26BC00A4C444 /* StandardEngine.swift */,
+				0890A60D1EBFFB13005980AD /* FMan.swift */,
 			);
 			path = FinalProject;
 			sourceTree = "<group>";
@@ -140,9 +167,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				081C00231EBF26BC00A4C444 /* StandardEngine.swift in Sources */,
+				08EE92AE1EBDF49F004458CA /* getJSON.swift in Sources */,
 				FBAD2E2B1E2BE417008207C0 /* SecondViewController.swift in Sources */,
+				08EE92B21EBDF6F7004458CA /* StatisticsVController.swift in Sources */,
 				FBAD2E271E2BE417008207C0 /* AppDelegate.swift in Sources */,
 				FBAD2E291E2BE417008207C0 /* FirstViewController.swift in Sources */,
+				08EE92B41EBDFF3A004458CA /* GridEditorViewController.swift in Sources */,
+				0890A60E1EBFFB13005980AD /* FMan.swift in Sources */,
+				088AA06F1EBA3A0700096E03 /* GridView.swift in Sources */,
+				08EE92B01EBDF6E4004458CA /* SimulationVController.swift in Sources */,
+				08EE92AC1EBDE826004458CA /* InstrumentationVController.swift in Sources */,
+				088AA06E1EBA3A0700096E03 /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +344,7 @@
 				FBAD2E391E2BE417008207C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
